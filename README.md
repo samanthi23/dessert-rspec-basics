@@ -1,0 +1,1 @@
+Practicing TDD principles in Ruby using RSpec
