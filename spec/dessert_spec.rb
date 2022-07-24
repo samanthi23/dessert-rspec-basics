@@ -3,7 +3,7 @@ require 'drink'
 
 describe Dessert do 
     subject(:brownie) { Dessert.new("brownie", 50) }
-    let(:milk) { Drink.new("milk")}
+    let(:milk) { double("milk") } # mock out { Drink.new("milk")} and use a double instead
     
     
     describe '#initialize' do 
