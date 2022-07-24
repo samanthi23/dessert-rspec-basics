@@ -1,5 +1,5 @@
 require 'dessert'
-require 'drink'
+# erased require 'drink' 
 
 describe Dessert do 
     subject(:brownie) { Dessert.new("brownie", 50) }
